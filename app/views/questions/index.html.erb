@@ -7,5 +7,9 @@
     <%= q.formated_created_at %>
   </time>
   
-  <p><%= q.body %></p>
+  <p>
+    <%= q.body %>
+    <br>
+    <%= link_to 'Edit', path %>
+  </p>
 <% end %>
